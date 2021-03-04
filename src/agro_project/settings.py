@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'agro_project.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "agre_db",
-        "USER": "agro_user",
-        "PASSWORD": "root",
+        "NAME": "db_agro",
+        "USER": "user_agro",
+        "PASSWORD": "root_agro",
         "HOST": "localhost",
         "PORT": "5432",
     }

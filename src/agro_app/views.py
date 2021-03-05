@@ -8,7 +8,7 @@ def index(request):
 
 def registratsiya(request):
     if request.POST:
-        agro_user = Agro_User()
+        agro_user = AgroUser()
         agro_user.user_type = request.POST.get("user_type")
         agro_user.full_name = request.POST.get("full_name")
         agro_user.email = request.POST.get("email")
